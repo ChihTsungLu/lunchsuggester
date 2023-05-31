@@ -19,8 +19,9 @@ Bootstrap 提供了一套CSS樣式和JavaScript組件，用於快速構建響應
 需要注意的地方：
 localStorage 是使用鍵值對(key,value)的形式來存儲數據，但資料儲存若非字串，陣列或物件，會自動轉為字串(String)格式儲存。
 因此
-1.JSON.stringify：將 array 資料"儲存"時轉為 JSON 格式的 string 型態，例如`localStorage.setItem('restaurantList',JSON.stringify(restaurantList));`
-2.JSON.stringify：將儲存資料"取回"轉為原先的資料型別，例如`const restaurantList = JSON.parse(localStorage.getItem('restaurantList')) || [];`
+ 1. JSON.stringify：將 array 資料"儲存"時轉為 JSON 格式的 string 型態，例如`localStorage.setItem('restaurantList',JSON.stringify(restaurantList));`
+ 2. JSON.stringify：將儲存資料"取回"轉為原先的資料型別，例如`const restaurantList = JSON.parse(localStorage.getItem('restaurantList')) || [];`
 
 ## **輪盤效果**
-使用[WhimWheel](http://dougtesting.net/winwheel/docs)及[GreenSock](https://greensock.com/get-started/)製作
+使用 [WhimWheel](http://dougtesting.net/winwheel/docs) 一個用於創建互動式轉盤的 JavaScript 函式庫
+及 [GreenSock](https://greensock.com/get-started/) 控制動畫效果。
