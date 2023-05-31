@@ -1,4 +1,5 @@
 ﻿# lunchsuggester
+ ![image](https://github.com/ChihTsungLu/lunchsuggester/blob/main/Untitled.png)
 [DEMO](https://chihtsunglu.github.io/lunchsuggester/?fbclid=IwAR1YrxvWWs-FNPZfwGPz47duew_WGwSwur3gU_53QPOQpLXlGfvhVhOld1w)
 # 午餐選擇器
 利用 Google Map 挑選附近的餐廳，可加入到「美食收藏」並利用輪盤隨機挑選收藏中的餐廳，解決「午餐不知道要吃什麼」的困擾
